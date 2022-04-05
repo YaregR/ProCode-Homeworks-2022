@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-photo-1 {
+    background: url(./img/bandera.jpg) center center/cover no-repeat;
+}
+
+.main-photo-1 a {
+    display: block;
+    width: 300px;
+    height: 200px;
+}
+
+.main-photo-2 a {
+    display: block;
+    width: 300px;
+    height: 200px;
+    background: url(./img/bandera.jpg) center center/cover no-repeat;
+}
+
+.main-photo-3 img {
+    width: 300px;
+    height: 200px;
+}
+
+.link {
+    position: absolute;
+    text-decoration: underline;
+}
+
+.main-photo-4 img {
+    width: 300px;
+    height: 200px;
+}
+
+.main-photo-4::before {
+    content: 'Тиць';
+    position: absolute;
+    color: rgb(85, 26, 139);
+    cursor: pointer;
+    text-decoration: underline;
+}
