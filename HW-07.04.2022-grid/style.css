@@ -1,0 +1,134 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid rgb(60, 81, 177);
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.menu-item {
+    width: 150px;
+    list-style-type: none;
+    padding: 10px 20px;
+    text-align: center;
+    border: 1px solid rgb(60, 81, 177);
+}
+
+.user {
+    padding: 10px 20px;
+    text-align: center;
+    border: 1px solid rgb(60, 81, 177);
+}
+
+.main-title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-btn {
+    padding: 10px;
+}
+
+.crypta-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.crypta-item {
+    width: 280px;
+    height: 200px;
+    border: 1px solid rgb(60, 81, 177);
+}
+
+.crypta-total {
+    display: flex;
+    margin: 20px 0;
+}
+
+.crypta-total-item {
+    padding: 10px;
+    border: 1px solid rgb(60, 81, 177);
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "diagramm        diagramm        diagramm        forecast"
+        "statistic-menu  statistic-menu  statistic-menu  contracts"
+        "statistic-table statistic-table statistic-table contracts ";
+}
+
+.diagramm {
+    height: 280px;
+    grid-area: diagramm;
+    border: 1px solid rgb(60, 81, 177);
+    background-image: url(./img/graph.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.forecast {
+    grid-area: forecast;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid rgb(60, 81, 177);
+    padding: 10px;
+
+}
+
+.statistic-menu {
+    grid-area: statistic-menu;
+    border: 1px solid rgb(60, 81, 177);
+}
+
+.statistic-menu-items {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.statistic-menu-items .menu-item {
+    width: auto;
+}
+
+.statistic-table {
+    display: flex;
+    justify-content: space-between;
+    grid-area: statistic-table;
+    border: 1px solid rgb(60, 81, 177);
+    padding: 10px;
+}
+
+.table-item {
+    min-width: 150px;
+    min-height: 100px;
+    margin: 0 10px;
+}
+
+.contracts {
+    grid-area: contracts;
+    border: 1px solid rgb(60, 81, 177);
+    padding: 10px;
+}
+
+.contracts-item {
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid rgb(60, 81, 177);
+}
