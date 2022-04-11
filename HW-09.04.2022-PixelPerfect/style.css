@@ -1,0 +1,110 @@
+* {
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.container {
+    max-width: 1204px;
+    margin: 0 auto;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    border-bottom: 1px solid rgba(28, 28, 28, 0.1);
+}
+
+.header-btn {
+    background-color: rgb(246, 246, 246);
+    border: none;
+    border-radius: 5px;
+    padding: 8px 21px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.header-btn i {
+    font-size: 18px;
+    margin-right: 10px;
+    color: rgb(51, 85, 153);
+}
+
+.main-wrapper {
+    display: flex;
+    padding: 31px 63px;
+}
+
+.company-info {
+    max-width: 660px;
+    padding: 0 30px;
+}
+
+.company-logo {
+    padding-left: 37px;
+}
+
+.company-logo img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.company-title {
+    margin: 4px 0 17px 0;
+}
+
+.company-web {
+    font-size: 14px;
+    margin-bottom: 26px;
+}
+
+.company-web i {
+    color: rgb(191, 191, 191);
+    margin-right: 12px;
+}
+
+.company-web a {
+    text-decoration: none;
+    color: rgb(28, 28, 28);
+}
+
+.company-web-link {
+    display: block;
+    margin-bottom: 11px;
+}
+
+.company-text {
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, .5);
+    margin-bottom: 20px;
+    padding-right: 50px;
+}
+
+.company-more {
+    text-decoration-style: dashed;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.company-stat {
+    padding: 20px 0;
+}
+
+.company-stat-item {
+    max-width: 125px;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, .5);
+    padding: 14px 0;
+}
+
+.company-stat-item span {
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 5px;
+}
