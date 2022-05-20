@@ -1,0 +1,49 @@
+.container {
+    padding: 30px;
+}
+
+header {
+    max-width: 500px;
+    height: 150px;
+    background-color: yellow;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.main {
+    max-width: 500px;
+    height: 150px;
+    background-color: red;
+    border: 1px solid black;
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    width: 300px;
+    height: 100px;
+    background-color: gray;
+    border: 1px solid black;
+    text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+    header, .main {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        padding: 0;
+    }
+    footer {
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        width: 100%;
+    }
+}
+
