@@ -1,0 +1,67 @@
+$main-color: #232355;
+
+.test-container {
+    position: relative;
+    display: grid;
+    width: 800px;
+    height: 600px;
+    border: 2px solid rgb(255, 0, 0);
+    background: yellow;
+    box-sizing: border-box;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 150px 200px 300px;
+
+.test {
+    min-width: 100px;
+    min-height: 50px;
+    background: #888;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 0, 0);
+    font-size: 50px;
+    
+    &:hover {
+        background-color: coral;
+        cursor: pointer;
+        transition: all 1s linear;
+        font-size: 100px;
+        }
+    }
+
+.text {
+    border: 2px solid rgb(255, 0, 0);
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+
+    .text-block {
+        border: 2px solid rgb(0, 0, 0);
+        padding: 5px;
+
+        &:hover {
+            cursor: pointer;
+            background-color: lighten($color: $main-color, $amount: 0.1);
+            }
+        }
+    }
+}
+
+
+.pos-wrapper {
+    height: 200px;
+    position: relative;
+}
+
+.pos {
+    min-width: 100px;
+    min-height: 50px;
+    background: #888;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 0, 0);
+    font-size: 50px;
+    position: absolute;
+    bottom: 100px;
+    left: 30px;
+    right: 40px;
+}
+
+
