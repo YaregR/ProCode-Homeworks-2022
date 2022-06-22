@@ -14,6 +14,11 @@
         background-color: rgb(48, 206, 69);
         box-sizing: border-box;
         border: 1px solid #000;
+        border-radius: 6px;
+    }
+
+    .stop {
+        background-color: red;
     }
 }
 
@@ -37,6 +42,7 @@
         height: 50px;
         background-color: rgb(48, 206, 69);
         border: 1px solid #000;
+        border-radius: 3px;
         text-align: center;
         font-size: 24px;
 
