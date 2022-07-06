@@ -1,4 +1,13 @@
 .container {
+  display: flex;
+  padding: 20px;
+}
+
+.setup {
+  margin-bottom: 20px;
+}
+
+.field {
   margin: 0 auto;
   width: 800px;
   height: 600px;
@@ -7,7 +16,7 @@
   background-color: #d1d6d5;
   box-sizing: border-box;
 }
-.container .block {
+.field .block {
   width: 100px;
   height: 100px;
   background-color: rgb(48, 206, 69);
@@ -15,18 +24,13 @@
   border: 1px solid #000;
   border-radius: 6px;
 }
-.container .stop {
+.field .stop {
   background-color: red;
 }
 
-.wrapper {
-  width: 800px;
-  margin: 50px auto;
-  display: flex;
-  justify-content: center;
-}
-
 .arrow-container {
+  width: 150px;
+  height: 100px;
   display: grid;
   grid-template-columns: 50px 50px 50px;
   grid-template-rows: auto;
