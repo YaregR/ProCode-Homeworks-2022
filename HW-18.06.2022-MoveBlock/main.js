@@ -5,6 +5,7 @@ const selectFieldHeight = document.querySelector('[name="field-height"]');
 // const form = document.forms.field;
 
 const elBlock = document.querySelector('.block');
+const elStop = document.querySelector('.stop');
 
 const arrowUp = document.querySelector('.arrow-up');
 const arrowLeft = document.querySelector('.arrow-left');
@@ -19,6 +20,7 @@ selectFieldWidth.addEventListener('change', (ev) => {
 selectFieldHeight.addEventListener('change', (ev) => {
     let getHeight = ev.target.value;
     elField.style.height = getHeight +'px';
+    elStop.style.display = 'block';
 });
 
 // Вариант формы с кнопкой:
