@@ -9,8 +9,8 @@
 
 .field {
   margin: 0 auto;
-  width: 800px;
-  height: 600px;
+  width: 100px;
+  height: 100px;
   position: relative;
   border: 1px solid #000;
   background-color: #d1d6d5;
@@ -26,6 +26,7 @@
 }
 .field .stop {
   background-color: red;
+  display: none;
 }
 
 .arrow-container {
