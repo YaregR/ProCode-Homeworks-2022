@@ -1,0 +1,17 @@
+{
+  "name": "hw-21.07.2022-axios",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app.js"
+  },
+  "author": "Yareg",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "fs": "^0.0.1-security",
+    "unix-timestamp": "^1.0.2"
+  },
+  "description": ""
+}
