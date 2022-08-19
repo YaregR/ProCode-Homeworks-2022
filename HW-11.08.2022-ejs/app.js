@@ -1,3 +1,4 @@
+const { name } = require('ejs');
 const express = require('express');
 const server = express();
 
@@ -18,6 +19,7 @@ const items = [
     {id:9, name:'Таблички'},
     {id:10, name: 'Конверти'},
     {id:11, name: 'Папки'},
+    {id:12, name: 'Блокноти'}
 ];
 
 
@@ -28,6 +30,14 @@ server.get('/', (req, res) => {
 server.get('/items', (req, res) => {
     res.json(items);
 });
+
+server.get('/products/:itemsId', (req, res) =>  {
+    res.render('item', {
+        name: [items[req.params["itemsId"]-1].name]
+    });
+});
+
+
 
 
 server.listen(3000);

@@ -41,6 +41,13 @@ body {
   gap: 48px;
   padding: 48px 0;
 }
+.main .page {
+  justify-content: center;
+}
+.main .page .main-item {
+  width: 320px;
+  height: 220px;
+}
 .main a {
   text-decoration: none;
 }
