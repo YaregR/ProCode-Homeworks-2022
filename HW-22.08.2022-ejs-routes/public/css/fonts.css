@@ -1,0 +1,21 @@
+@font-face {
+	font-family: 'TeX Gyre Adventor';
+	src: url('../fonts/TeXGyreAdventor-Regular.eot');
+	src: local('../fonts/TeX Gyre Adventor Regular'), local('TeXGyreAdventor-Regular'),
+		url('../fonts/TeXGyreAdventor-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/TeXGyreAdventor-Regular.woff') format('woff'),
+		url('../fonts/TeXGyreAdventor-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TeX Gyre Adventor';
+	src: url('../fonts/TeXGyreAdventor-Bold.eot');
+	src: local('TeX Gyre Adventor Bold'), local('TeXGyreAdventor-Bold'),
+		url('../fonts/TeXGyreAdventor-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/TeXGyreAdventor-Bold.woff') format('woff'),
+		url('../fonts/TeXGyreAdventor-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
