@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="container">
+                <h1>photo gallery title</h1>
+                <div class="header_contacts">
+                    <a href="https://t.me/YaregR" class="telegram_link">
+                        <img src="./icons/telegram.svg" alt="telegram">
+                    </a>
+                    <a href="viber://chat?number=%2B380671214301" class="viber_link">
+                        <img src="./icons/viber.svg" alt="viber">
+                    </a>
+                    <a href="tel:+380671214301" class="phone_link">
+                        <img src="./icons/phone.svg" alt="phone">
+                    </a>
+                    <a href="tel:+380671214301" class="phone_link_number">+38 067 121 43 01</a>
+                </div>
+            </div>
+               
+        </header>
+    
+        <div class="content">
+            <div class="container">  
+                <section class="gallery">
+                    
+                    <form action="#" name="gallery">
+
+                        <div class="check_buttons">
+                            <button class="select_btn">Select All</button>           
+                            <button class="clear_btn">Clear All</button>
+                        </div>
+
+                        <div class="gallery_all">
+                        
+                            <div class="gallery_item">               
+                                <img class="gallery_photo" src="./img/photo_1.jpg" alt="photo">
+                                <input type="checkbox" class="photo_check_selected" name="photo_check" id="photo_check_1">
+                                <label for="photo_check_1"></label>
+                            </div>
+                            <div class="gallery_item">               
+                                <img class="gallery_photo" src="./img/photo_1.jpg" alt="photo">
+                                <input type="checkbox" class="photo_check_selected" name="photo_check" id="photo_check_2">
+                                <label for="photo_check_2"></label>
+                            </div>
+                            <div class="gallery_item">               
+                                <img class="gallery_photo" src="./img/photo_1.jpg" alt="photo">
+                                <input type="checkbox" class="photo_check_selected" name="photo_check" id="photo_check_3">
+                                <label for="photo_check_3"></label>
+                            </div>
+                            <div class="gallery_item">               
+                                <img class="gallery_photo" src="./img/photo_1.jpg" alt="photo">
+                                <input type="checkbox" class="photo_check_selected" name="photo_check" id="photo_check_4">
+                                <label for="photo_check_4"></label>
+                            </div>
+                            <div class="gallery_item">               
+                                <img class="gallery_photo" src="./img/photo_1.jpg" alt="photo">
+                                <input type="checkbox" class="photo_check_selected" name="photo_check" id="photo_check_5">
+                                <label for="photo_check_5"></label>
+                            </div>
+                            <div class="gallery_item">               
+                                <img class="gallery_photo" src="./img/photo_1.jpg" alt="photo">
+                                <input type="checkbox" class="photo_check_selected" name="photo_check" id="photo_check_6">
+                                <label for="photo_check_6"></label>
+                            </div>
+                            <div class="gallery_item">               
+                                <img class="gallery_photo" src="./img/photo_1.jpg" alt="photo">
+                                <input type="checkbox" class="photo_check_selected" name="photo_check" id="photo_check_7">
+                                <label for="photo_check_7"></label>
+                            </div>
+                            <div class="gallery_item">               
+                                <img class="gallery_photo" src="./img/photo_1.jpg" alt="photo">
+                                <input type="checkbox" class="photo_check_selected" name="photo_check" id="photo_check_8">
+                                <label for="photo_check_8"></label>
+                            </div>
+                            <div class="gallery_item">               
+                                <img class="gallery_photo" src="./img/photo_1.jpg" alt="photo">
+                                <input type="checkbox" class="photo_check_selected" name="photo_check" id="photo_check_9">
+                                <label for="photo_check_9"></label>
+                            </div>
+                            <div class="gallery_item">               
+                                <img class="gallery_photo" src="./img/photo_1.jpg" alt="photo">
+                                <input type="checkbox" class="photo_check_selected" name="photo_check" id="photo_check_10">
+                                <label for="photo_check_10"></label>
+                            </div>
+                            <div class="gallery_item">               
+                                <img class="gallery_photo" src="./img/photo_1.jpg" alt="photo">
+                                <input type="checkbox" class="photo_check_selected" name="photo_check" id="photo_check_11">
+                                <label for="photo_check_11"></label>
+                            </div>
+                        </div>            
+                    </form>                                            
+                </section>
+        
+                <aside class="photographer">
+                    <div class="photo_amount_title">Selected:</div>
+                    <div class="photo_amount"><span class="photo_amount_sum">0</span> pcs</div>
+                    <div class="photo_amount_title">Total:</div>
+                    <div class="total_price"><span class="total_price_sum">0</span> uah</div>
+                    <button class="total_price_btn">purchase</button>
+                </aside>
+            </div>  
+        </div>
+        
+           
+        <footer class="footer">
+            <div class="container">
+                Copyright 2022 Gallery
+            </div>
+        </footer>
+    </div>
+              
+<script src="./js/main.js"></script>    
+</body>
+</html>

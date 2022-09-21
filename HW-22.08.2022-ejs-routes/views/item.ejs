@@ -32,6 +32,12 @@
             <div class="items-wrapper page">
                                                
                 <a href="#"><div class="main-item"><%=name%></div></a>
+
+                <form class="upload-form" action="/upload" method="post" enctype="multipart/form-data">
+                    <label for="file" class="upload-btn">Оберіть файл</label>
+                    <input id="file" type="file" name="filedata" />
+                    <input type="submit" value="Відправити" />
+                </form>
                 
             </div>
         </div>

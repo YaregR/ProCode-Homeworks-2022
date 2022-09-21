@@ -2,6 +2,8 @@ const express = require('express');
 const server = express();
 
 server.set('view engine', 'ejs');
+server.set('views', './views'); //не обов'язково, по замовчуванню так і є
+
 server.use(express.static(__dirname + '/public'));
 
 server.get('/', (req, res) => {
